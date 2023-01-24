@@ -1,0 +1,21 @@
+$primaryColor: #004a98;
+$baseColor: #ffffff;
+$secondaryColor: #9fd1f166;
+$subTextColor: #7e7e7e;
+$textColor: #000000;
+$boxShadowColor: #00000029;
+$fontStyle: roboto;
+$fontSize: 18px;
+$errorColor: #d32f2f;
+
+:export {
+  primaryColor: $primaryColor;
+  secondaryColor: $secondaryColor;
+  baseColor: $baseColor;
+  subTextColor: $subTextColor;
+  textColor: $textColor;
+  boxShadowColor: $boxShadowColor;
+  fontStyle: $fontStyle;
+  fontSize: $fontSize;
+  errorColor: $errorColor;
+}

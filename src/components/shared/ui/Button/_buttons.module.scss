@@ -1,0 +1,7 @@
+@use "../../../../styles/_style.module";
+
+.button {
+  width: 177px;
+  height: 48px;
+  background-color: style.$primaryColor;
+}
