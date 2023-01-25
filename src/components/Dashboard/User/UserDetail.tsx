@@ -72,12 +72,6 @@ const UserDetail = () => {
                   <b>{userGetResponse.data.email}</b>
                 </Typography>
               </Box>
-              <Box className={classes.field}>
-                <Typography sx={{ width: "50%" }}>Address</Typography>
-                <Typography>
-                  <b>{userGetResponse.data.address}</b>
-                </Typography>
-              </Box>
             </Stack>
           </Stack>
         </>
